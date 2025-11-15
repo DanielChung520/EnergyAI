@@ -1,0 +1,58 @@
+[http]
+bind-address = "0.0.0.0:8086"
+
+[bolt]
+path = "./data/influxd.bolt"
+
+[engine]
+path = "./data/engine"
+
+[storage]
+inmem-size = 1073741824
+max-concurrent-compactions = 4
+max-index-log-file-size = 1048576
+trace-logging-enabled = false
+wal-fsync-delay = "0s"
+
+[coordinator]
+write-buffer-size = 100000000
+max-concurrent-queries = 0
+query-timeout = "0s"
+log-queries-after = "0s"
+
+[data]
+dir = "./data/data"
+wal-dir = "./data/wal"
+engine = "tsm1"
+cache-max-memory-size = 1073741824
+cache-snapshot-memory-size = 26214400
+cache-snapshot-write-cold-duration = "10m0s"
+compact-full-write-cold-duration = "4h0m0s"
+compact-throughput = 50331648
+compact-throughput-burst = 50331648
+
+[retention]
+enabled = true
+check-interval = "30m0s"
+
+[shard-precreation]
+enabled = true
+check-interval = "10m0s"
+advance-period = "30m0s"
+
+[monitor]
+store-enabled = true
+store-interval = "10s"
+
+[http]
+auth-enabled = true
+log-enabled = true
+write-tracing = false
+flux-enabled = true
+
+[logging]
+level = "info"
+format = "auto"
+
+[experimental]
+max-values-per-tag = 100000

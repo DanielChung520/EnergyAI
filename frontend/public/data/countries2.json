@@ -1,0 +1,1361 @@
+{
+  "countries": [
+    {
+      "id": "004",
+      "abbrev": "AFG",
+      "name": "Afghanistan",
+      "name_cn": "阿富汗",
+      "region": "SOUTH_ASIA"
+    },
+    {
+      "id": "024",
+      "abbrev": "AGO",
+      "name": "Angola",
+      "name_cn": "安哥拉",
+      "region": "AFRICA"
+    },
+    {
+      "id": "008",
+      "abbrev": "ALB",
+      "name": "Albania",
+      "name_cn": "阿尔巴尼亚",
+      "region": "EUROPE"
+    },
+    {
+      "id": "784",
+      "abbrev": "ARE",
+      "name": "United Arab Emirates",
+      "name_cn": "阿联酋",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "156",
+      "abbrev": "CHN",
+      "name": "China",
+      "name_cn": "中国",
+      "region": "EASTERN_ASIA",
+      "division": "APAC"
+    },
+    {
+      "id": "158",
+      "abbrev": "TWN",
+      "name": "Taiwan",
+      "name_cn": "台湾",
+      "region": "EASTERN_ASIA",
+      "division": "APAC"
+    },
+    {
+      "id": "344",
+      "abbrev": "HKG",
+      "name": "Hong Kong",
+      "name_cn": "香港",
+      "region": "EASTERN_ASIA",
+      "division": "APAC"
+    },
+    {
+      "id": "392",
+      "abbrev": "JPN",
+      "name": "Japan",
+      "name_cn": "日本",
+      "region": "EASTERN_ASIA",
+      "division": "APAC"
+    },
+
+   {
+      "id": "012",
+      "abbrev": "DZA",
+      "name": "Algeria",
+      "name_cn": "阿尔及利亚",
+      "region": "AFRICA"
+    },
+    {
+      "id": "032",
+      "abbrev": "ARG",
+      "name": "Argentina",
+      "name_cn": "阿根廷",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "id": "051",
+      "abbrev": "ARM",
+      "name": "Armenia",
+      "name_cn": "亚美尼亚",
+      "region": "EASTERN_EUROPE"
+    },
+    {
+      "id": "050",
+      "abbrev": "AZE",
+      "name": "Azerbaijan",
+      "name_cn": "阿塞拜疆",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "036",
+      "abbrev": "AUS",
+      "name": "Australia",
+      "name_cn": "澳大利亚",
+      "region": "OCEANIA"
+    },
+    {
+      "id": "040",
+      "abbrev": "AUT",
+      "name": "Austria",
+      "name_cn": "奥地利",
+      "region": "EUROPE"
+    },
+    {
+      "id": "044",
+      "abbrev": "BHS",
+      "name": "The Bahamas",
+      "name_cn": "巴哈马",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "048",
+      "abbrev": "BDI",
+      "name": "Burundi",
+      "name_cn": "布隆迪",
+      "region": "AFRICA"
+    },
+    {
+      "id": "052",
+      "abbrev": "BLZ",
+      "name": "Belize",
+      "name_cn": "伯利兹",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "id": "060",
+      "abbrev": "BEN",
+      "name": "Benin",
+      "name_cn": "贝宁",
+      "region": "AFRICA"
+    },
+    {
+      "id": "084",
+      "abbrev": "BLR",
+      "name": "Belarus",
+      "name_cn": "白俄罗斯",
+      "region": "EASTERN_EUROPE"
+    },
+    {
+      "id": "070",
+      "abbrev": "BOL",
+      "name": "Bolivia",
+      "name_cn": "玻利维亚",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "id": "076",
+      "abbrev": "BRA",
+      "name": "Brazil",
+      "name_cn": "巴西",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "id": "096",
+      "abbrev": "BRN",
+      "name": "Brunei",
+      "name_cn": "文莱",
+      "region": "SOUTH_EASTERN_ASIA",
+      "division": "APAC"
+    },
+    {
+      "id": "100",
+      "abbrev": "BGR",
+      "name": "Bulgaria",
+      "name_cn": "保加利亚",
+      "region": "EASTERN_EUROPE"
+    },
+    {
+      "id": "108",
+      "abbrev": "BFA",
+      "name": "Burkina Faso",
+      "name_cn": "布基纳法索",
+      "region": "AFRICA"
+    },
+    {
+      "id": "116",
+      "abbrev": "KHM",
+      "name": "Cambodia",
+      "name_cn": "柬埔寨",
+      "region": "SOUTH_EASTERN_ASIA",
+      "division": "APAC"
+    },
+    {
+      "id": "120",
+      "abbrev": "CMR",
+      "name": "Cameroon",
+      "name_cn": "喀麦隆",
+      "region": "AFRICA"
+    },
+    {
+      "id": "124",
+      "abbrev": "CAN",
+      "name": "Canada",
+      "name_cn": "加拿大",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "id": "132",
+      "abbrev": "CPV",
+      "name": "Cape Verde",
+      "name_cn": "佛得角",
+      "region": "AFRICA"
+    },
+    {
+      "id": "140",
+      "abbrev": "CAF",
+      "name": "Central African Republic",
+      "name_cn": "中非共和国",
+      "region": "AFRICA"
+    },
+    {
+      "id": "148",
+      "abbrev": "TCD",
+      "name": "Chad",
+      "name_cn": "乍得",
+      "region": "AFRICA"
+    },
+    {
+      "id": "152",
+      "abbrev": "CHL",
+      "name": "Chile",
+      "name_cn": "智利",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "id": "150",
+      "abbrev": "DEU",
+      "name": "Germany",
+      "name_cn": "德国",
+      "region": "EUROPE"
+    },
+    {
+      "id": "170",
+      "abbrev": "COL",
+      "name": "Colombia",
+      "name_cn": "哥伦比亚",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "id": "178",
+      "abbrev": "COG",
+      "name": "Republic of the Congo",
+      "name_cn": "刚果共和国",
+      "region": "AFRICA"
+    },
+    {
+      "id": "180",
+      "abbrev": "COD",
+      "name": "Democratic Republic of the Congo",
+      "name_cn": "刚果民主共和国",
+      "region": "AFRICA"
+    },
+    {
+      "id": "184",
+      "abbrev": "CCK",
+      "name": "Cocos (Keeling) Islands",
+      "name_cn": "科科斯（基林）群岛",
+      "region": "AFRICA"
+    },
+    {
+      "id": "188",
+      "abbrev": "CRI",
+      "name": "Costa Rica",
+      "name_cn": "哥斯达黎加",
+      "region": "CENTRAL_AMERICA"
+    },
+    {
+      "id": "191",
+      "abbrev": "HRV",
+      "name": "Croatia",
+      "name_cn": "克罗地亚",
+      "region": "EUROPE"
+    },
+    {
+      "id": "192",
+      "abbrev": "CUB",
+      "name": "Cuba",
+      "name_cn": "古巴",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "196",
+      "abbrev": "CYP",
+      "name": "Cyprus",
+      "name_cn": "塞浦路斯",
+      "region": "EUROPE"
+    },
+    {
+      "id": "203",
+      "abbrev": "CZE",
+      "name": "Czech Republic",
+      "name_cn": "捷克共和国",
+      "region": "EUROPE"
+    },
+    {
+      "id": "208",
+      "abbrev": "DNK",
+      "name": "Denmark",
+      "name_cn": "丹麦",
+      "region": "EUROPE"
+    },
+    {
+      "id": "212",
+      "abbrev": "DMA",
+      "name": "Dominica",
+      "name_cn": "多米尼加",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "214",
+      "abbrev": "DOM",
+      "name": "Dominican Republic",
+      "name_cn": "多米尼加共和国",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "218",
+      "abbrev": "ECU",
+      "name": "Ecuador",
+      "name_cn": "厄瓜多尔",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "id": "818",
+      "abbrev": "EGY",
+      "name": "Egypt",
+      "name_cn": "埃及",
+      "region": "NORTH_AFRICA"
+    },
+    {
+      "id": "222",
+      "abbrev": "SLV",
+      "name": "El Salvador",
+      "name_cn": "萨尔瓦多",
+      "region": "CENTRAL_AMERICA"
+    },
+    {
+      "id": "226",
+      "abbrev": "GNQ",
+      "name": "Equatorial Guinea",
+      "name_cn": "赤道几内亚",
+      "region": "AFRICA"
+    },
+    {
+      "id": "232",
+      "abbrev": "ERI",
+      "name": "Eritrea",
+      "name_cn": "厄立特里亚",
+      "region": "AFRICA"
+    },
+    {
+      "id": "233",
+      "abbrev": "EST",
+      "name": "Estonia",
+      "name_cn": "爱沙尼亚",
+      "region": "EUROPE"
+    },
+    {
+      "id": "231",
+      "abbrev": "ETH",
+      "name": "Ethiopia",
+      "name_cn": "埃塞俄比亚",
+      "region": "AFRICA"
+    },
+    {
+      "id": "242",
+      "abbrev": "FJI",
+      "name": "Fiji",
+      "name_cn": "斐济",
+      "region": "OCEANIA"
+    },
+    {
+      "id": "246",
+      "abbrev": "FIN",
+      "name": "Finland",
+      "name_cn": "芬兰",
+      "region": "EUROPE"
+    },
+    {
+      "id": "250",
+      "abbrev": "FRA",
+      "name": "France",
+      "name_cn": "法国",
+      "region": "EUROPE"
+    },
+    {
+      "id": "266",
+      "abbrev": "GAB",
+      "name": "Gabon",
+      "name_cn": "加蓬",
+      "region": "AFRICA"
+    },
+    {
+      "id": "270",
+      "abbrev": "GMB",
+      "name": "Gambia",
+      "name_cn": "冈比亚",
+      "region": "AFRICA"
+    },
+    {
+      "id": "268",
+      "abbrev": "GEO",
+      "name": "Georgia",
+      "name_cn": "格鲁吉亚",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "288",
+      "abbrev": "GHA",
+      "name": "Ghana",
+      "name_cn": "加纳",
+      "region": "AFRICA"
+    },
+    {
+      "id": "292",
+      "abbrev": "GIB",
+      "name": "Gibraltar",
+      "name_cn": "直布罗陀",
+      "region": "EUROPE"
+    },
+    {
+      "id": "300",
+      "abbrev": "GRC",
+      "name": "Greece",
+      "name_cn": "希腊",
+      "region": "EUROPE"
+    },
+    {
+      "id": "308",
+      "abbrev": "GRD",
+      "name": "Grenada",
+      "name_cn": "格林纳达",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "320",
+      "abbrev": "GTM",
+      "name": "Guatemala",
+      "name_cn": "危地马拉",
+      "region": "CENTRAL_AMERICA"
+    },
+    {
+      "id": "324",
+      "abbrev": "GIN",
+      "name": "Guinea",
+      "name_cn": "几内亚",
+      "region": "AFRICA"
+    },
+    {
+      "id": "624",
+      "abbrev": "GNB",
+      "name": "Guinea Bissau",
+      "name_cn": "几内亚比绍",
+      "region": "AFRICA"
+    },
+    {
+      "id": "328",
+      "abbrev": "GUY",
+      "name": "Guyana",
+      "name_cn": "圭亚那",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "id": "332",
+      "abbrev": "HTI",
+      "name": "Haiti",
+      "name_cn": "海地",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "340",
+      "abbrev": "HND",
+      "name": "Honduras",
+      "name_cn": "洪都拉斯",
+      "region": "CENTRAL_AMERICA"
+    },
+    {
+      "id": "348",
+      "abbrev": "HUN",
+      "name": "Hungary",
+      "name_cn": "匈牙利",
+      "region": "EUROPE"
+    },
+    {
+      "id": "352",
+      "abbrev": "ISL",
+      "name": "Iceland",
+      "name_cn": "冰岛",
+      "region": "EUROPE"
+    },
+    {
+      "id": "356",
+      "abbrev": "IND",
+      "name": "India",
+      "name_cn": "印度",
+      "region": "SOUTHERN_ASIA",
+      "division": "APAC"
+    },
+    {
+      "id": "360",
+      "abbrev": "IDN",
+      "name": "Indonesia",
+      "name_cn": "印度尼西亚",
+      "region": "SOUTH_EASTERN_ASIA",
+      "division": "APAC"
+    },
+    {
+      "id": "364",
+      "abbrev": "IRN",
+      "name": "Iran",
+      "name_cn": "伊朗",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "368",
+      "abbrev": "IRQ",
+      "name": "Iraq",
+      "name_cn": "伊拉克",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "376",
+      "abbrev": "ISR",
+      "name": "Israel",
+      "name_cn": "以色列",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "380",
+      "abbrev": "ITA",
+      "name": "Italy",
+      "name_cn": "意大利",
+      "region": "EUROPE"
+    },
+    {
+      "id": "388",
+      "abbrev": "JAM",
+      "name": "Jamaica",
+      "name_cn": "牙买加",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "398",
+      "abbrev": "KAZ",
+      "name": "Kazakhstan",
+      "name_cn": "哈萨克斯坦",
+      "region": "CENTRAL_ASIA",
+      "division": "EMEA"
+    },
+    {
+      "id": "400",
+      "abbrev": "JOR",
+      "name": "Jordan",
+      "name_cn": "约旦",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "404",
+      "abbrev": "KEN",
+      "name": "Kenya",
+      "name_cn": "肯尼亚",
+      "region": "AFRICA"
+    },
+    {
+      "id": "408",
+      "abbrev": "PRK",
+      "name": "North Korea",
+      "name_cn": "朝鲜",
+      "region": "EAST_ASIA"
+    },
+    {
+      "id": "410",
+      "abbrev": "KOR",
+      "name": "South Korea",
+      "name_cn": "韩国",
+      "region": "EASTERN_ASIA",
+      "division": "APAC"
+    },
+    {
+      "id": "414",
+      "abbrev": "KWT",
+      "name": "Kuwait",
+      "name_cn": "科威特",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "417",
+      "abbrev": "KGZ",
+      "name": "Kyrgyzstan",
+      "name_cn": "吉尔吉斯斯坦",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "418",
+      "abbrev": "LAO",
+      "name": "Laos",
+      "name_cn": "老挝",
+      "region": "SOUTHEAST_ASIA"
+    },
+    {
+      "id": "422",
+      "abbrev": "LBN",
+      "name": "Lebanon",
+      "name_cn": "黎巴嫩",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "426",
+      "abbrev": "LSO",
+      "name": "Lesotho",
+      "name_cn": "莱索托",
+      "region": "AFRICA"
+    },
+    {
+      "id": "430",
+      "abbrev": "LBR",
+      "name": "Liberia",
+      "name_cn": "利比里亚",
+      "region": "AFRICA"
+    },
+    {
+      "id": "434",
+      "abbrev": "LYN",
+      "name": "Libya",
+      "name_cn": "利比亚",
+      "region": "NORTH_AFRICA"
+    },
+    {
+      "id": "438",
+      "abbrev": "LIE",
+      "name": "Liechtenstein",
+      "name_cn": "列支敦士登",
+      "region": "EUROPE"
+    },
+    {
+      "id": "440",
+      "abbrev": "LTU",
+      "name": "Lithuania",
+      "name_cn": "立陶宛",
+      "region": "EUROPE"
+    },
+    {
+      "id": "442",
+      "abbrev": "LUX",
+      "name": "Luxembourg",
+      "name_cn": "卢森堡",
+      "region": "EUROPE"
+    },
+    {
+      "id": "446",
+      "abbrev": "MAC",
+      "name": "Macao",
+      "name_cn": "澳门",
+      "region": "EASTERN_ASIA",
+      "division": "APAC"
+    },
+    {
+      "id": "450",
+      "abbrev": "MDG",
+      "name": "Madagascar",
+      "name_cn": "马达加斯加",
+      "region": "AFRICA"
+    },
+    {
+      "id": "454",
+      "abbrev": "MWI",
+      "name": "Malawi",
+      "name_cn": "马拉维",
+      "region": "AFRICA"
+    },
+    {
+      "id": "458",
+      "abbrev": "MYS",
+      "name": "Malaysia",
+      "name_cn": "马来西亚",
+      "region": "SOUTHEAST_ASIA"
+    },
+    {
+      "id": "462",
+      "abbrev": "MDV",
+      "name": "Maldives",
+      "name_cn": "马尔代夫",
+      "region": "SOUTHEAST_ASIA"
+    },
+    {
+      "id": "466",
+      "abbrev": "MLI",
+      "name": "Mali",
+      "name_cn": "马里",
+      "region": "AFRICA"
+    },
+    {
+      "id": "470",
+      "abbrev": "MLT",
+      "name": "Malta",
+      "name_cn": "马耳他",
+      "region": "EUROPE"
+    },
+    {
+      "id": "478",
+      "abbrev": "MRT",
+      "name": "Mauritania",
+      "name_cn": "毛里塔尼亚",
+      "region": "NORTH_AFRICA"
+    },
+    {
+      "id": "480",
+      "abbrev": "MUS",
+      "name": "Mauritius",
+      "name_cn": "毛里求斯",
+      "region": "AFRICA"
+    },
+    {
+      "id": "484",
+      "abbrev": "MEX",
+      "name": "Mexico",
+      "name_cn": "墨西哥",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "id": "498",
+      "abbrev": "MDA",
+      "name": "Moldova",
+      "name_cn": "摩尔多瓦",
+      "region": "EASTERN_EUROPE"
+    },
+    {
+      "id": "492",
+      "abbrev": "MCO",
+      "name": "Monaco",
+      "name_cn": "摩纳哥",
+      "region": "EUROPE"
+    },
+    {
+      "id": "496",
+      "abbrev": "MNG",
+      "name": "Mongolia",
+      "name_cn": "蒙古",
+      "region": "EASTERN_ASIA",
+      "division": "APAC"
+    },
+    {
+      "id": "500",
+      "abbrev": "MSR",
+      "name": "Montserrat",
+      "name_cn": "蒙特塞拉特",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "504",
+      "abbrev": "MAR",
+      "name": "Morocco",
+      "name_cn": "摩洛哥",
+      "region": "NORTH_AFRICA"
+    },
+    {
+      "id": "508",
+      "abbrev": "MOZ",
+      "name": "Mozambique",
+      "name_cn": "莫桑比克",
+      "region": "AFRICA"
+    },
+    {
+      "id": "104",
+      "abbrev": "MMR",
+      "name": "Myanmar",
+      "name_cn": "缅甸",
+      "region": "SOUTHEAST_ASIA"
+    },
+    {
+      "id": "516",
+      "abbrev": "NAM",
+      "name": "Namibia",
+      "name_cn": "纳米比亚",
+      "region": "AFRICA"
+    },
+    {
+      "id": "520",
+      "abbrev": "NRU",
+      "name": "Nauru",
+      "name_cn": "瑙鲁",
+      "region": "OCEANIA"
+    },
+    {
+      "id": "524",
+      "abbrev": "NPL",
+      "name": "Nepal",
+      "name_cn": "尼泊尔",
+      "region": "SOUTH_ASIA"
+    },
+    {
+      "id": "528",
+      "abbrev": "NLD",
+      "name": "Netherlands",
+      "name_cn": "荷兰",
+      "region": "EUROPE"
+    },
+    {
+      "id": "540",
+      "abbrev": "NCL",
+      "name": "New Caledonia",
+      "name_cn": "新喀里多尼亚",
+      "region": "OCEANIA"
+    },
+    {
+      "id": "554",
+      "abbrev": "NZL",
+      "name": "New Zealand",
+      "name_cn": "新西兰",
+      "region": "OCEANIA"
+    },
+    {
+      "id": "558",
+      "abbrev": "NIC",
+      "name": "Nicaragua",
+      "name_cn": "尼加拉瓜",
+      "region": "CENTRAL_AMERICA"
+    },
+    {
+      "id": "562",
+      "abbrev": "NER",
+      "name": "Niger",
+      "name_cn": "尼日尔",
+      "region": "AFRICA"
+    },
+    {
+      "id": "566",
+      "abbrev": "NGA",
+      "name": "Nigeria",
+      "name_cn": "尼日利亚",
+      "region": "AFRICA"
+    },
+    {
+      "id": "570",
+      "abbrev": "NOR",
+      "name": "Norway",
+      "name_cn": "挪威",
+      "region": "EUROPE"
+    },
+    {
+      "id": "574",
+      "abbrev": "OMN",
+      "name": "Oman",
+      "name_cn": "阿曼",
+      "region": "NORTH_AFRICA"
+    },
+    {
+      "id": "580",
+      "abbrev": "PAK",
+      "name": "Pakistan",
+      "name_cn": "巴基斯坦",
+      "region": "SOUTH_ASIA"
+    },
+    {
+      "id": "583",
+      "abbrev": "PLW",
+      "name": "Palau",
+      "name_cn": "帕劳",
+      "region": "OCEANIA"
+    },
+    {
+      "id": "585",
+      "abbrev": "PSS",
+      "name": "Palestinian Territory",
+      "name_cn": "巴勒斯坦领土",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "591",
+      "abbrev": "PAN",
+      "name": "Panama",
+      "name_cn": "巴拿马",
+      "region": "CENTRAL_AMERICA"
+    },
+    {
+      "id": "598",
+      "abbrev": "PNG",
+      "name": "Papua New Guinea",
+      "name_cn": "巴布亚新几内亚",
+      "region": "OCEANIA"
+    },
+    {
+      "id": "600",
+      "abbrev": "PRY",
+      "name": "Paraguay",
+      "name_cn": "巴拉圭",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "id": "604",
+      "abbrev": "PER",
+      "name": "Peru",
+      "name_cn": "秘鲁",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "id": "608",
+      "abbrev": "PHL",
+      "name": "Philippines",
+      "name_cn": "菲律宾",
+      "region": "SOUTHEAST_ASIA"
+    },
+    {
+      "id": "612",
+      "abbrev": "PCN",
+      "name": "Pitcairn",
+      "name_cn": "皮特凯恩",
+      "region": "OCEANIA"
+    },
+    {
+      "id": "616",
+      "abbrev": "POL",
+      "name": "Poland",
+      "name_cn": "波兰",
+      "region": "EUROPE"
+    },
+    {
+      "id": "620",
+      "abbrev": "PRT",
+      "name": "Portugal",
+      "name_cn": "葡萄牙",
+      "region": "EUROPE"
+    },
+    {
+      "id": "630",
+      "abbrev": "PRI",
+      "name": "Puerto Rico",
+      "name_cn": "波多黎各",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "634",
+      "abbrev": "QAT",
+      "name": "Qatar",
+      "name_cn": "卡塔尔",
+      "region": "NORTH_AFRICA"
+    },
+    {
+      "id": "638",
+      "abbrev": "REU",
+      "name": "Reunion",
+      "name_cn": "留尼汪",
+      "region": "AFRICA"
+    },
+    {
+      "id": "642",
+      "abbrev": "ROU",
+      "name": "Romania",
+      "name_cn": "罗马尼亚",
+      "region": "EASTERN_EUROPE"
+    },
+    {
+      "id": "643",
+      "abbrev": "RUS",
+      "name": "Russia",
+      "name_cn": "俄罗斯",
+      "region": "EUROPE"
+    },
+    {
+      "id": "646",
+      "abbrev": "RWA",
+      "name": "Rwanda",
+      "name_cn": "卢旺达",
+      "region": "AFRICA"
+    },
+    {
+      "id": "652",
+      "abbrev": "BLM",
+      "name": "Saint Barthelemy",
+      "name_cn": "圣巴泰勒米",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "654",
+      "abbrev": "SHN",
+      "name": "Saint Helena",
+      "name_cn": "圣赫勒拿",
+      "region": "AFRICA"
+    },
+    {
+      "id": "659",
+      "abbrev": "KNA",
+      "name": "Saint Kitts and Nevis",
+      "name_cn": "圣基茨和尼维斯",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "662",
+      "abbrev": "LCA",
+      "name": "Saint Lucia",
+      "name_cn": "圣卢西亚",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "663",
+      "abbrev": "MAF",
+      "name": "Saint Martin",
+      "name_cn": "圣马丁",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "666",
+      "abbrev": "SPM",
+      "name": "Saint Pierre and Miquelon",
+      "name_cn": "圣皮埃尔和密克隆",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "670",
+      "abbrev": "VCT",
+      "name": "Saint Vincent and the Grenadines",
+      "name_cn": "圣文森特和格林纳丁斯",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "674",
+      "abbrev": "SMR",
+      "name": "San Marino",
+      "name_cn": "圣马力诺",
+      "region": "EUROPE"
+    },
+    {
+      "id": "678",
+      "abbrev": "STP",
+      "name": "Sao Tome and Principe",
+      "name_cn": "圣多美和普林西比",
+      "region": "AFRICA"
+    },
+    {
+      "id": "682",
+      "abbrev": "SAU",
+      "name": "Saudi Arabia",
+      "name_cn": "沙特阿拉伯",
+      "region": "NORTH_AFRICA"
+    },
+    {
+      "id": "686",
+      "abbrev": "SEN",
+      "name": "Senegal",
+      "name_cn": "塞内加尔",
+      "region": "AFRICA"
+    },
+    {
+      "id": "688",
+      "abbrev": "SRB",
+      "name": "Republic of Serbia",
+      "name_cn": "塞尔维亚共和国",
+      "region": "EASTERN_EUROPE"
+    },
+    {
+      "id": "690",
+      "abbrev": "SYC",
+      "name": "Seychelles",
+      "name_cn": "塞舌尔",
+      "region": "AFRICA"
+    },
+    {
+      "id": "694",
+      "abbrev": "SLE",
+      "name": "Sierra Leone",
+      "name_cn": "塞拉利昂",
+      "region": "AFRICA"
+    },
+    {
+      "id": "702",
+      "abbrev": "SGP",
+      "name": "Singapore",
+      "name_cn": "新加坡",
+      "region": "SOUTHEAST_ASIA"
+    },
+    {
+      "id": "703",
+      "abbrev": "SVK",
+      "name": "Slovakia",
+      "name_cn": "斯洛伐克",
+      "region": "EUROPE"
+    },
+    {
+      "id": "705",
+      "abbrev": "SVN",
+      "name": "Slovenia",
+      "name_cn": "斯洛文尼亚",
+      "region": "EUROPE"
+    },
+    {
+      "id": "706",
+      "abbrev": "SOM",
+      "name": "Somalia",
+      "name_cn": "索马里",
+      "region": "AFRICA"
+    },
+    {
+      "id": "710",
+      "abbrev": "ZAF",
+      "name": "South Africa",
+      "name_cn": "南非",
+      "region": "AFRICA"
+    },
+    {
+      "id": "724",
+      "abbrev": "ESP",
+      "name": "Spain",
+      "name_cn": "西班牙",
+      "region": "EUROPE"
+    },
+    {
+      "id": "728",
+      "abbrev": "SSD",
+      "name": "South Sudan",
+      "name_cn": "南苏丹",
+      "region": "AFRICA"
+    },
+    {
+      "id": "729",
+      "abbrev": "SDN",
+      "name": "Sudan",
+      "name_cn": "苏丹",
+      "region": "NORTH_AFRICA"
+    },
+    {
+      "id": "740",
+      "abbrev": "SUR",
+      "name": "Suriname",
+      "name_cn": "苏里南",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "id": "748",
+      "abbrev": "SWZ",
+      "name": "Swaziland",
+      "name_cn": "斯威士兰",
+      "region": "AFRICA"
+    },
+    {
+      "id": "752",
+      "abbrev": "SWE",
+      "name": "Sweden",
+      "name_cn": "瑞典",
+      "region": "EUROPE"
+    },
+    {
+      "id": "756",
+      "abbrev": "CHE",
+      "name": "Switzerland",
+      "name_cn": "瑞士",
+      "region": "EUROPE"
+    },
+    {
+      "id": "760",
+      "abbrev": "SYR",
+      "name": "Syria",
+      "name_cn": "叙利亚",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "762",
+      "abbrev": "TJK",
+      "name": "Tajikistan",
+      "name_cn": "塔吉克斯坦",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "764",
+      "abbrev": "THA",
+      "name": "Thailand",
+      "name_cn": "泰国",
+      "region": "SOUTHEAST_ASIA"
+    },
+    {
+      "id": "768",
+      "abbrev": "TGO",
+      "name": "Togo",
+      "name_cn": "多哥",
+      "region": "AFRICA"
+    },
+    {
+      "id": "776",
+      "abbrev": "TON",
+      "name": "Tonga",
+      "name_cn": "汤加",
+      "region": "OCEANIA"
+    },
+    {
+      "id": "780",
+      "abbrev": "TTO",
+      "name": "Trinidad and Tobago",
+      "name_cn": "特立尼达和多巴哥",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "788",
+      "abbrev": "TUN",
+      "name": "Tunisia",
+      "name_cn": "突尼斯",
+      "region": "NORTH_AFRICA"
+    },
+    {
+      "id": "792",
+      "abbrev": "TUR",
+      "name": "Turkey",
+      "name_cn": "土耳其",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "795",
+      "abbrev": "TKM",
+      "name": "Turkmenistan",
+      "name_cn": "土库曼斯坦",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "796",
+      "abbrev": "TCA",
+      "name": "Turks and Caicos Islands",
+      "name_cn": "特克斯和凯科斯群岛",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "798",
+      "abbrev": "TUV",
+      "name": "Tuvalu",
+      "name_cn": "图瓦卢",
+      "region": "OCEANIA"
+    },
+    {
+      "id": "800",
+      "abbrev": "UGA",
+      "name": "Uganda",
+      "name_cn": "乌干达",
+      "region": "AFRICA"
+    },
+    {
+      "id": "804",
+      "abbrev": "UKR",
+      "name": "Ukraine",
+      "name_cn": "乌克兰",
+      "region": "EASTERN_EUROPE"
+    },
+    {
+      "id": "807",
+      "abbrev": "MKD",
+      "name": "Macedonia",
+      "name_cn": "马其顿",
+      "region": "EASTERN_EUROPE"
+    },
+    {
+      "id": "826",
+      "abbrev": "GBR",
+      "name": "United Kingdom",
+      "name_cn": "英国",
+      "region": "WESTERN_EUROPE"
+    },
+    {
+      "id": "831",
+      "abbrev": "GGY",
+      "name": "Guernsey",
+      "name_cn": "根西",
+      "region": "EUROPE"
+    },
+    {
+      "id": "832",
+      "abbrev": "JEY",
+      "name": "Jersey",
+      "name_cn": "泽西",
+      "region": "EUROPE"
+    },
+    {
+      "id": "833",
+      "abbrev": "IMN",
+      "name": "Isle of Man",
+      "name_cn": "马恩岛",
+      "region": "EUROPE"
+    },
+    {
+      "id": "834",
+      "abbrev": "TZA",
+      "name": "United Republic of Tanzania",
+      "name_cn": "坦桑尼亚联合共和国",
+      "region": "AFRICA"
+    },
+    {
+      "id": "840",
+      "abbrev": "USA",
+      "name": "United States of America",
+      "name_cn": "美国",
+      "region": "NORTH_AMERICA"
+    },
+    {
+      "id": "850",
+      "abbrev": "VIR",
+      "name": "U.S. Virgin Islands",
+      "name_cn": "美属维尔京群岛",
+      "region": "CARIBBEAN"
+    },
+    {
+      "id": "858",
+      "abbrev": "URY",
+      "name": "Uruguay",
+      "name_cn": "乌拉圭",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "id": "860",
+      "abbrev": "UZB",
+      "name": "Uzbekistan",
+      "name_cn": "乌兹别克斯坦",
+      "region": "WEST_ASIA"
+    },
+    {
+      "id": "862",
+      "abbrev": "VEN",
+      "name": "Venezuela",
+      "name_cn": "委内瑞拉",
+      "region": "SOUTH_AMERICA"
+    },
+    {
+      "id": "876",
+      "abbrev": "WLF",
+      "name": "Wallis and Futuna",
+      "name_cn": "瓦利斯和富图纳",
+      "region": "OCEANIA"
+    },
+    {
+      "id": "882",
+      "abbrev": "WSM",
+      "name": "Samoa",
+      "name_cn": "萨摩亚",
+      "region": "OCEANIA"
+    },
+    {
+      "id": "887",
+      "abbrev": "YEM",
+      "name": "Yemen",
+      "name_cn": "也门",
+      "region": "NORTH_AFRICA"
+    },
+    {
+      "id": "894",
+      "abbrev": "ZMB",
+      "name": "Zambia",
+      "name_cn": "赞比亚",
+      "region": "SOUTHERN_AFRICA"
+    },
+    {
+      "id": "898",
+      "abbrev": "ZWE",
+      "name": "Zimbabwe",
+      "name_cn": "津巴布韦",
+      "region": "SOUTHERN_AFRICA"
+    },
+    {
+      "id": "704",
+      "abbrev": "VNM",
+      "name": "Vietnam",
+      "name_cn": "越南",
+      "region": "SOUTHEAST_ASIA"
+    }
+  ]
+} 

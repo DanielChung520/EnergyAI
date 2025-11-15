@@ -1,0 +1,12 @@
+.page-container {
+  min-height: 100vh;
+  background: linear-gradient(to right bottom, #2196f3, #1976d2);
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+/* 其他全局樣式 */ 

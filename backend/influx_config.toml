@@ -1,0 +1,5 @@
+[influx]
+url = "http://localhost:8086"
+token = "z0JX4a98e1dYqNVsVwsNXkggyeKD2oY7hJiLvuUZFhTuuO0Od_dl4tc_eIQLWgpKP3hGWnI6iUMGI29EKF6vFQ=="
+org = "energy-ai"
+timeout = 10000 

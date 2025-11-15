@@ -1,0 +1,12 @@
+tunnel: c20ca17f-6aed-4d1e-bf0c-d72f91992129
+credentials-file: /home/daniel/.cloudflared/c20ca17f-6aed-4d1e-bf0c-d72f91992129.json
+
+ingress:
+  - hostname: eai.bioengy.com
+    service: http://localhost:8082
+  - hostname: eai.bioengy.com
+    path: /api
+    service: http://localhost:5000
+  - hostname: tsdb.bioengy.com
+    service: http://localhost:8086
+  - service: http_status:404 

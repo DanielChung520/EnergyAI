@@ -1,0 +1,18 @@
+# 生产环境配置 - 支持两种模式
+VITE_API_URL=${DEPLOY_ENV === 'local' ? 'http://localhost:5500' : 'http://eai.bioengy.com/api'}
+REACT_APP_API_BASE_URL=${DEPLOY_ENV === 'local' ? 'http://localhost:5500' : 'http://eai.bioengy.com'}
+
+# API 路径配置
+VITE_SITE_API_URL=/api/sites
+VITE_ROLE_API_URL=/api/roles
+VITE_EQUIPMENT_API_URL=/api/equipments
+VITE_MAP_API_URL=/api/map
+
+# InfluxDB 配置
+INFLUXDB_USERNAME=admin
+INFLUXDB_PASSWORD=findaniel
+INFLUXDB_ORG=energy-ai
+INFLUXDB_BUCKET=power-plant-data
+INFLUXDB_ADMIN_TOKEN=BXtBJ1v3asAK-1XjfAT1VIl32lmF8a7WAhEZbngXFPdJ5yiIBqTpYEoI6qCH5HptA5OhPO5nIYNFd73k0p6FRg==
+
+FLASK_ENV=production 

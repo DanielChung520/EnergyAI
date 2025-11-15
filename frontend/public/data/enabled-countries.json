@@ -1,0 +1,20 @@
+{
+    "enabledCountries": [
+        {
+            "id": "608",
+            "name": "Philippines"
+        },
+        {
+            "id": "156",
+            "name": "China"
+        },
+        {
+            "id": "158",
+            "name": "Taiwan"
+        },
+        {
+            "id": "392",
+            "name": "Japan"
+        }
+    ]
+} 

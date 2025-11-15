@@ -1,0 +1,5 @@
+flask
+flask-cors
+influxdb-client
+boto3
+python-dotenv 

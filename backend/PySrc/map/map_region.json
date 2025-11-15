@@ -1,0 +1,1421 @@
+{
+  "regions": [
+    {
+      "path_id": "path6251",
+      "region_id": "A01",
+      "country": "中國",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -77.8,
+        -447.8
+      ],
+      "created_at": "2024-03-22T10:00:00",
+      "updated_at": "2024-03-22T10:00:00"
+    },
+    {
+      "path_id": "path6249",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -75,
+        -450.3
+      ],
+      "created_at": "2025-01-23T12:33:56.340994",
+      "updated_at": "2025-01-23T12:33:56.340995"
+    },
+    {
+      "path_id": "path3279",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -129.4,
+        -570.1
+      ],
+      "created_at": "2025-01-23T12:33:56.340998",
+      "updated_at": "2025-01-23T12:33:56.340998"
+    },
+    {
+      "path_id": "path6247",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -131.2,
+        -569.5
+      ],
+      "created_at": "2025-01-23T12:33:56.341000",
+      "updated_at": "2025-01-23T12:33:56.341001"
+    },
+    {
+      "path_id": "path6245",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -52,
+        -457
+      ],
+      "created_at": "2025-01-23T12:33:56.341003",
+      "updated_at": "2025-01-23T12:33:56.341003"
+    },
+    {
+      "path_id": "path6243",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -92.6,
+        -458.7
+      ],
+      "created_at": "2025-01-23T12:33:56.341005",
+      "updated_at": "2025-01-23T12:33:56.341006"
+    },
+    {
+      "path_id": "path6241",
+      "region_id": "",
+      "country": "紐西蘭",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        783.1,
+        -475.6
+      ],
+      "created_at": "2025-01-23T12:33:56.341008",
+      "updated_at": "2025-01-23T12:33:56.341009"
+    },
+    {
+      "path_id": "path6239",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        713.1,
+        -485.2
+      ],
+      "created_at": "2025-01-23T12:33:56.341011",
+      "updated_at": "2025-01-23T12:33:56.341011"
+    },
+    {
+      "path_id": "path6237",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        828.7,
+        -491.8
+      ],
+      "created_at": "2025-01-23T12:33:56.341013",
+      "updated_at": "2025-01-23T12:33:56.341014"
+    },
+    {
+      "path_id": "path6235",
+      "region_id": "大洋洲",
+      "country": "澳洲",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341017",
+      "updated_at": "2025-01-23T20:45:08.124985"
+    },
+    {
+      "path_id": "path3283",
+      "region_id": "南美",
+      "country": "巴西",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341019",
+      "updated_at": "2025-01-23T21:45:49.193721"
+    },
+    {
+      "path_id": "path3259",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -48.8,
+        -519.9
+      ],
+      "created_at": "2025-01-23T12:33:56.341022",
+      "updated_at": "2025-01-23T12:33:56.341023"
+    },
+    {
+      "path_id": "path6233",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -60.1,
+        -641.8
+      ],
+      "created_at": "2025-01-23T12:33:56.341024",
+      "updated_at": "2025-01-23T12:33:56.341025"
+    },
+    {
+      "path_id": "path3273",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        324.4,
+        -594.3
+      ],
+      "created_at": "2025-01-23T12:33:56.341027",
+      "updated_at": "2025-01-23T12:33:56.341027"
+    },
+    {
+      "path_id": "path3269",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        324.1,
+        -594.9
+      ],
+      "created_at": "2025-01-23T12:33:56.341029",
+      "updated_at": "2025-01-23T12:33:56.341030"
+    },
+    {
+      "path_id": "path6231",
+      "region_id": "",
+      "country": "南非",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        291,
+        -541.4
+      ],
+      "created_at": "2025-01-23T12:33:56.341032",
+      "updated_at": "2025-01-23T12:33:56.341032"
+    },
+    {
+      "path_id": "path6229",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        275,
+        -529.8
+      ],
+      "created_at": "2025-01-23T12:33:56.341034",
+      "updated_at": "2025-01-23T12:33:56.341035"
+    },
+    {
+      "path_id": "path6227",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        269.2,
+        -530
+      ],
+      "created_at": "2025-01-23T12:33:56.341036",
+      "updated_at": "2025-01-23T12:33:56.341037"
+    },
+    {
+      "path_id": "path6225",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        230,
+        -535.3
+      ],
+      "created_at": "2025-01-23T12:33:56.341039",
+      "updated_at": "2025-01-23T12:33:56.341040"
+    },
+    {
+      "path_id": "path6223",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -73.8,
+        -540.1
+      ],
+      "created_at": "2025-01-23T12:33:56.341041",
+      "updated_at": "2025-01-23T12:33:56.341042"
+    },
+    {
+      "path_id": "path6221",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        285.5,
+        -540.5
+      ],
+      "created_at": "2025-01-23T12:33:56.341044",
+      "updated_at": "2025-01-23T12:33:56.341044"
+    },
+    {
+      "path_id": "path6219",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        243.4,
+        -543.6
+      ],
+      "created_at": "2025-01-23T12:33:56.341046",
+      "updated_at": "2025-01-23T12:33:56.341047"
+    },
+    {
+      "path_id": "path6217",
+      "region_id": "",
+      "country": "馬達加斯加",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        339.5,
+        -546.3
+      ],
+      "created_at": "2025-01-23T12:33:56.341050",
+      "updated_at": "2025-01-23T12:33:56.341050"
+    },
+    {
+      "path_id": "path6215",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -118.1,
+        -557.3
+      ],
+      "created_at": "2025-01-23T12:33:56.341052",
+      "updated_at": "2025-01-23T12:33:56.341053"
+    },
+    {
+      "path_id": "path6213",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        832.1,
+        -559.2
+      ],
+      "created_at": "2025-01-23T12:33:56.341054",
+      "updated_at": "2025-01-23T12:33:56.341055"
+    },
+    {
+      "path_id": "path6211",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        280.6,
+        -557.1
+      ],
+      "created_at": "2025-01-23T12:33:56.341057",
+      "updated_at": "2025-01-23T12:33:56.341057"
+    },
+    {
+      "path_id": "path6209",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        388.2,
+        -561.7
+      ],
+      "created_at": "2025-01-23T12:33:56.341059",
+      "updated_at": "2025-01-23T12:33:56.341060"
+    },
+    {
+      "path_id": "path6207",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        912.6,
+        -561.6
+      ],
+      "created_at": "2025-01-23T12:33:56.341062",
+      "updated_at": "2025-01-23T12:33:56.341062"
+    },
+    {
+      "path_id": "path6203",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        886.6,
+        -570.2
+      ],
+      "created_at": "2025-01-23T12:33:56.341064",
+      "updated_at": "2025-01-23T12:33:56.341065"
+    },
+    {
+      "path_id": "path6201",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        920,
+        -571
+      ],
+      "created_at": "2025-01-23T12:33:56.341066",
+      "updated_at": "2025-01-23T12:33:56.341067"
+    },
+    {
+      "path_id": "path3270",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        253,
+        -573.2
+      ],
+      "created_at": "2025-01-23T12:33:56.341069",
+      "updated_at": "2025-01-23T12:33:56.341069"
+    },
+    {
+      "path_id": "path3268",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        218.2,
+        -610.9
+      ],
+      "created_at": "2025-01-23T12:33:56.341071",
+      "updated_at": "2025-01-23T12:33:56.341072"
+    },
+    {
+      "path_id": "path3266",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        210.8,
+        -614.5
+      ],
+      "created_at": "2025-01-23T12:33:56.341073",
+      "updated_at": "2025-01-23T12:33:56.341074"
+    },
+    {
+      "path_id": "path6199",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        208.4,
+        -613.7
+      ],
+      "created_at": "2025-01-23T12:33:56.341076",
+      "updated_at": "2025-01-23T12:33:56.341076"
+    },
+    {
+      "path_id": "path6197",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        892.9,
+        -573.6
+      ],
+      "created_at": "2025-01-23T12:33:56.341078",
+      "updated_at": "2025-01-23T12:33:56.341079"
+    },
+    {
+      "path_id": "path6195",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        846.2,
+        -576.3
+      ],
+      "created_at": "2025-01-23T12:33:56.341081",
+      "updated_at": "2025-01-23T12:33:56.341082"
+    },
+    {
+      "path_id": "path6193",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        301.3,
+        -576.4
+      ],
+      "created_at": "2025-01-23T12:33:56.341083",
+      "updated_at": "2025-01-23T12:33:56.341084"
+    },
+    {
+      "path_id": "path6191",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        850.1,
+        -576.9
+      ],
+      "created_at": "2025-01-23T12:33:56.341086",
+      "updated_at": "2025-01-23T12:33:56.341086"
+    },
+    {
+      "path_id": "path6189",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        931.5,
+        -584
+      ],
+      "created_at": "2025-01-23T12:33:56.341088",
+      "updated_at": "2025-01-23T12:33:56.341089"
+    },
+    {
+      "path_id": "path6185",
+      "region_id": "",
+      "country": "巴佈亞努幾內亞",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        781.5,
+        -594.1
+      ],
+      "created_at": "2025-01-23T12:33:56.341090",
+      "updated_at": "2025-01-23T12:33:56.341091"
+    },
+    {
+      "path_id": "path6183",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        823,
+        -594.7
+      ],
+      "created_at": "2025-01-23T12:33:56.341093",
+      "updated_at": "2025-01-23T12:33:56.341094"
+    },
+    {
+      "path_id": "path6181",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        655,
+        -597.7
+      ],
+      "created_at": "2025-01-23T12:33:56.341095",
+      "updated_at": "2025-01-23T12:33:56.341096"
+    },
+    {
+      "path_id": "path6179",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        672,
+        -598.9
+      ],
+      "created_at": "2025-01-23T12:33:56.341098",
+      "updated_at": "2025-01-23T12:33:56.341098"
+    },
+    {
+      "path_id": "path6177",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        817,
+        -597.7
+      ],
+      "created_at": "2025-01-23T12:33:56.341101",
+      "updated_at": "2025-01-23T12:33:56.341102"
+    },
+    {
+      "path_id": "path6175",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        821.7,
+        -598.3
+      ],
+      "created_at": "2025-01-23T12:33:56.341103",
+      "updated_at": "2025-01-23T12:33:56.341104"
+    },
+    {
+      "path_id": "path6173",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        899,
+        -597.7
+      ],
+      "created_at": "2025-01-23T12:33:56.341106",
+      "updated_at": "2025-01-23T12:33:56.341106"
+    },
+    {
+      "path_id": "path6169",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        676.5,
+        -600.4
+      ],
+      "created_at": "2025-01-23T12:33:56.341108",
+      "updated_at": "2025-01-23T12:33:56.341109"
+    },
+    {
+      "path_id": "path6167",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        643.2,
+        -600.8
+      ],
+      "created_at": "2025-01-23T12:33:56.341111",
+      "updated_at": "2025-01-23T12:33:56.341111"
+    },
+    {
+      "path_id": "path6165",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        658.1,
+        -601.3
+      ],
+      "created_at": "2025-01-23T12:33:56.341113",
+      "updated_at": "2025-01-23T12:33:56.341114"
+    },
+    {
+      "path_id": "path6163",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        741,
+        -602.1
+      ],
+      "created_at": "2025-01-23T12:33:56.341115",
+      "updated_at": "2025-01-23T12:33:56.341116"
+    },
+    {
+      "path_id": "path6161",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        808.2,
+        -601.8
+      ],
+      "created_at": "2025-01-23T12:33:56.341118",
+      "updated_at": "2025-01-23T12:33:56.341118"
+    },
+    {
+      "path_id": "path6159",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        814.5,
+        -602.6
+      ],
+      "created_at": "2025-01-23T12:33:56.341120",
+      "updated_at": "2025-01-23T12:33:56.341121"
+    },
+    {
+      "path_id": "path6157",
+      "region_id": "東南亞",
+      "country": "印尼",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341122",
+      "updated_at": "2025-01-23T21:44:31.419997"
+    },
+    {
+      "path_id": "path6155",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        806.5,
+        -606.3
+      ],
+      "created_at": "2025-01-23T12:33:56.341125",
+      "updated_at": "2025-01-23T12:33:56.341125"
+    },
+    {
+      "path_id": "path6153",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        800.2,
+        -607.2
+      ],
+      "created_at": "2025-01-23T12:33:56.341127",
+      "updated_at": "2025-01-23T12:33:56.341128"
+    },
+    {
+      "path_id": "path6151",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        779,
+        -609.6
+      ],
+      "created_at": "2025-01-23T12:33:56.341130",
+      "updated_at": "2025-01-23T12:33:56.341131"
+    },
+    {
+      "path_id": "path6149",
+      "region_id": "東南亞",
+      "country": "印尼",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341132",
+      "updated_at": "2025-01-23T21:44:26.070249"
+    },
+    {
+      "path_id": "path6145",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        654.5,
+        -613
+      ],
+      "created_at": "2025-01-23T12:33:56.341135",
+      "updated_at": "2025-01-23T12:33:56.341135"
+    },
+    {
+      "path_id": "path3275",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -170.6,
+        -635.3
+      ],
+      "created_at": "2025-01-23T12:33:56.341137",
+      "updated_at": "2025-01-23T12:33:56.341138"
+    },
+    {
+      "path_id": "path6143",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -170.9,
+        -636.3
+      ],
+      "created_at": "2025-01-23T12:33:56.341140",
+      "updated_at": "2025-01-23T12:33:56.341141"
+    },
+    {
+      "path_id": "path3267",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        330.7,
+        -628.3
+      ],
+      "created_at": "2025-01-23T12:33:56.341142",
+      "updated_at": "2025-01-23T12:33:56.341143"
+    },
+    {
+      "path_id": "path6141",
+      "region_id": "",
+      "country": "",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        331.2,
+        -626.1
+      ],
+      "created_at": "2025-01-23T12:33:56.341145",
+      "updated_at": "2025-01-23T12:33:56.341145"
+    },
+    {
+      "path_id": "path5971",
+      "region_id": "大中華地區",
+      "country": "中國",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341147",
+      "updated_at": "2025-01-23T21:59:01.770203"
+    },
+    {
+      "path_id": "path5959",
+      "region_id": "大中華地區",
+      "country": "台灣",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341149",
+      "updated_at": "2025-01-23T20:49:32.828786"
+    },
+    {
+      "path_id": "path5847",
+      "region_id": "大中華地區",
+      "country": "外蒙古",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341152",
+      "updated_at": "2025-01-23T21:34:22.129761"
+    },
+    {
+      "path_id": "path6135",
+      "region_id": "東南亞",
+      "country": "印尼（婆羅洲）",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341154",
+      "updated_at": "2025-01-23T21:44:36.042647"
+    },
+    {
+      "path_id": "path4092",
+      "region_id": "東南亞",
+      "country": "馬來西亞（東）",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341157",
+      "updated_at": "2025-01-23T21:44:42.070359"
+    },
+    {
+      "path_id": "path5893",
+      "region_id": "東北亞",
+      "country": "日本",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341159",
+      "updated_at": "2025-01-23T20:49:25.971470"
+    },
+    {
+      "path_id": "path6071",
+      "region_id": "南亞",
+      "country": "印度",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341162",
+      "updated_at": "2025-01-23T21:46:38.998384"
+    },
+    {
+      "path_id": "path5941",
+      "region_id": "北美",
+      "country": "美國",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341164",
+      "updated_at": "2025-01-23T21:46:01.470604"
+    },
+    {
+      "path_id": "path5735",
+      "region_id": "東歐",
+      "country": "俄羅斯",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341166",
+      "updated_at": "2025-01-23T20:49:15.271230"
+    },
+    {
+      "path_id": "path5851",
+      "region_id": "東北亞",
+      "country": "日本",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341169",
+      "updated_at": "2025-01-23T20:49:43.447947"
+    },
+    {
+      "path_id": "path5897",
+      "region_id": "",
+      "country": "日本",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        44.97773361206055,
+        -441.285888671875
+      ],
+      "created_at": "2025-01-23T12:33:56.341171",
+      "updated_at": "2025-01-23T12:33:56.341172"
+    },
+    {
+      "path_id": "path5901",
+      "region_id": "",
+      "country": "日本",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        40.122886657714844,
+        -440.87969970703125
+      ],
+      "created_at": "2025-01-23T12:33:56.341173",
+      "updated_at": "2025-01-23T12:33:56.341174"
+    },
+    {
+      "path_id": "path5981",
+      "region_id": "",
+      "country": "中國-海南",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341176",
+      "updated_at": "2025-01-23T21:14:51.176564"
+    },
+    {
+      "path_id": "path6065",
+      "region_id": "東南亞",
+      "country": "越南",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341178",
+      "updated_at": "2025-01-23T21:43:19.069309"
+    },
+    {
+      "path_id": "path6055",
+      "region_id": "東南亞",
+      "country": "柬埔寨",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341181",
+      "updated_at": "2025-01-23T21:43:33.572502"
+    },
+    {
+      "path_id": "path6011",
+      "region_id": "東南亞",
+      "country": "高棉",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341183",
+      "updated_at": "2025-01-23T21:43:43.239078"
+    },
+    {
+      "path_id": "path4102",
+      "region_id": "東南亞",
+      "country": "泰國",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341186",
+      "updated_at": "2025-01-23T21:43:57.279732"
+    },
+    {
+      "path_id": "path6109",
+      "region_id": "東南亞",
+      "country": "馬來西亞",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341189",
+      "updated_at": "2025-01-23T21:44:48.433162"
+    },
+    {
+      "path_id": "path5949",
+      "region_id": "中亞",
+      "country": "巴基斯坦",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341191",
+      "updated_at": "2025-01-23T21:46:30.986778"
+    },
+    {
+      "path_id": "path6291",
+      "region_id": "",
+      "country": "孟加拉",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -22.087541580200195,
+        -423.64080810546875
+      ],
+      "created_at": "2025-01-23T12:33:56.341193",
+      "updated_at": "2025-01-23T12:33:56.341194"
+    },
+    {
+      "path_id": "path5885",
+      "region_id": "",
+      "country": "哈薩克",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -103.0208740234375,
+        -467.1365661621094
+      ],
+      "created_at": "2025-01-23T12:33:56.341196",
+      "updated_at": "2025-01-23T12:33:56.341197"
+    },
+    {
+      "path_id": "path3310",
+      "region_id": "",
+      "country": "吉爾吉斯",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -65.04759979248047,
+        -451.8128662109375
+      ],
+      "created_at": "2025-01-23T12:33:56.341198",
+      "updated_at": "2025-01-23T12:33:56.341199"
+    },
+    {
+      "path_id": "path3306",
+      "region_id": "",
+      "country": "塔吉克",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -62.94741439819336,
+        -449.5257873535156
+      ],
+      "created_at": "2025-01-23T12:33:56.341201",
+      "updated_at": "2025-01-23T12:33:56.341202"
+    },
+    {
+      "path_id": "path5909",
+      "region_id": "",
+      "country": "阿富汗",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -62.919342041015625,
+        -446.47283935546875
+      ],
+      "created_at": "2025-01-23T12:33:56.341203",
+      "updated_at": "2025-01-23T12:33:56.341204"
+    },
+    {
+      "path_id": "path5875",
+      "region_id": "",
+      "country": "烏茲別克",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -87.60694885253906,
+        -457.1553039550781
+      ],
+      "created_at": "2025-01-23T12:33:56.341207",
+      "updated_at": "2025-01-23T12:33:56.341208"
+    },
+    {
+      "path_id": "path3302",
+      "region_id": "",
+      "country": "土庫曼",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -77.56501007080078,
+        -445.5439453125
+      ],
+      "created_at": "2025-01-23T12:33:56.341210",
+      "updated_at": "2025-01-23T12:33:56.341211"
+    },
+    {
+      "path_id": "path5943",
+      "region_id": "",
+      "country": "伊朗",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -105.04773712158203,
+        -448.171142578125
+      ],
+      "created_at": "2025-01-23T12:33:56.341212",
+      "updated_at": "2025-01-23T12:33:56.341213"
+    },
+    {
+      "path_id": "path9522",
+      "region_id": "",
+      "country": "亞塞拜然",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -107.26398468017578,
+        -450.14141845703125
+      ],
+      "created_at": "2025-01-23T12:33:56.341215",
+      "updated_at": "2025-01-23T12:33:56.341216"
+    },
+    {
+      "path_id": "path5915",
+      "region_id": "",
+      "country": "伊拉克",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -112.73392486572266,
+        -446.3947448730469
+      ],
+      "created_at": "2025-01-23T12:33:56.341217",
+      "updated_at": "2025-01-23T12:33:56.341218"
+    },
+    {
+      "path_id": "path5883",
+      "region_id": "",
+      "country": "土耳其",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -121.57620239257812,
+        -451.5900573730469
+      ],
+      "created_at": "2025-01-23T12:33:56.341220",
+      "updated_at": "2025-01-23T12:33:56.341220"
+    },
+    {
+      "path_id": "path3292",
+      "region_id": "",
+      "country": "敘利亞",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -117.45893096923828,
+        -446.0111083984375
+      ],
+      "created_at": "2025-01-23T12:33:56.341222",
+      "updated_at": "2025-01-23T12:33:56.341223"
+    },
+    {
+      "path_id": "path5895",
+      "region_id": "",
+      "country": "黎巴嫩",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -125.18505096435547,
+        -442.5736999511719
+      ],
+      "created_at": "2025-01-23T12:33:56.341225",
+      "updated_at": "2025-01-23T12:33:56.341225"
+    },
+    {
+      "path_id": "path5921",
+      "region_id": "",
+      "country": "以色列",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -126.40465545654297,
+        -439.0760803222656
+      ],
+      "created_at": "2025-01-23T12:33:56.341227",
+      "updated_at": "2025-01-23T12:33:56.341228"
+    },
+    {
+      "path_id": "path5963",
+      "region_id": "",
+      "country": "埃及",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -130.91146850585938,
+        -437.3280944824219
+      ],
+      "created_at": "2025-01-23T12:33:56.341230",
+      "updated_at": "2025-01-23T12:33:56.341230"
+    },
+    {
+      "path_id": "path5071",
+      "region_id": "",
+      "country": "烏克蘭",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -137.13885498046875,
+        -467.5526123046875
+      ],
+      "created_at": "2025-01-23T12:33:56.341232",
+      "updated_at": "2025-01-23T12:33:56.341233"
+    },
+    {
+      "path_id": "path3545",
+      "region_id": "",
+      "country": "白俄羅斯",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -137.27586364746094,
+        -470.6513671875
+      ],
+      "created_at": "2025-01-23T12:33:56.341234",
+      "updated_at": "2025-01-23T12:33:56.341235"
+    },
+    {
+      "path_id": "path3701",
+      "region_id": "",
+      "country": "芬蘭",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -143.95657348632812,
+        -481.1942443847656
+      ],
+      "created_at": "2025-01-23T12:33:56.341237",
+      "updated_at": "2025-01-23T12:33:56.341237"
+    },
+    {
+      "path_id": "path3563",
+      "region_id": "",
+      "country": "瑞典",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -153.8186798095703,
+        -487.332275390625
+      ],
+      "created_at": "2025-01-23T12:33:56.341239",
+      "updated_at": "2025-01-23T12:33:56.341240"
+    },
+    {
+      "path_id": "path3359",
+      "region_id": "",
+      "country": "挪威",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -153.00714111328125,
+        -493.8916015625
+      ],
+      "created_at": "2025-01-23T12:33:56.341242",
+      "updated_at": "2025-01-23T12:33:56.341242"
+    },
+    {
+      "path_id": "path3769",
+      "region_id": "",
+      "country": "波瀾",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -149.77728271484375,
+        -467.3925476074219
+      ],
+      "created_at": "2025-01-23T12:33:56.341244",
+      "updated_at": "2025-01-23T12:33:56.341245"
+    },
+    {
+      "path_id": "path3299",
+      "region_id": "",
+      "country": "法國",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -236.35574340820312,
+        -696.9636840820312
+      ],
+      "created_at": "2025-01-23T12:33:56.341246",
+      "updated_at": "2025-01-23T12:33:56.341247"
+    },
+    {
+      "path_id": "path5775",
+      "region_id": "",
+      "country": "格陵蘭",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -333.0089416503906,
+        -947.9011840820312
+      ],
+      "created_at": "2025-01-23T12:33:56.341249",
+      "updated_at": "2025-01-23T12:33:56.341250"
+    },
+    {
+      "path_id": "path2010",
+      "region_id": "北美",
+      "country": "加拿大",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T12:33:56.341251",
+      "updated_at": "2025-01-23T21:45:55.320457"
+    },
+    {
+      "path_id": "path3713",
+      "region_id": "",
+      "country": "英國",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -303.7061462402344,
+        -922.292724609375
+      ],
+      "created_at": "2025-01-23T12:33:56.341254",
+      "updated_at": "2025-01-23T12:33:56.341254"
+    },
+    {
+      "path_id": "path5931",
+      "region_id": "",
+      "country": "摩洛哥",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -303.3557434082031,
+        -866.5408325195312
+      ],
+      "created_at": "2025-01-23T12:33:56.341256",
+      "updated_at": "2025-01-23T12:33:56.341257"
+    },
+    {
+      "path_id": "path3345",
+      "region_id": "",
+      "country": "西班牙",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -302.73443603515625,
+        -875.1002807617188
+      ],
+      "created_at": "2025-01-23T12:33:56.341258",
+      "updated_at": "2025-01-23T12:33:56.341259"
+    },
+    {
+      "path_id": "path6025",
+      "region_id": "",
+      "country": "也門",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -150.4633331298828,
+        -832.0761108398438
+      ],
+      "created_at": "2025-01-23T12:33:56.341261",
+      "updated_at": "2025-01-23T12:33:56.341262"
+    },
+    {
+      "path_id": "path5919",
+      "region_id": "",
+      "country": "約旦",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -193.83151245117188,
+        -860.5037231445312
+      ],
+      "created_at": "2025-01-23T12:33:56.341263",
+      "updated_at": "2025-01-23T12:33:56.341264"
+    },
+    {
+      "path_id": "path3315",
+      "region_id": "",
+      "country": "葡萄牙",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [
+        -316.1856994628906,
+        -877.5885620117188
+      ],
+      "created_at": "2025-01-23T12:33:56.341266",
+      "updated_at": "2025-01-23T12:33:56.341266"
+    },
+    {
+      "path_id": "path5891",
+      "region_id": "東北亞",
+      "country": "韓國",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T21:14:24.464991",
+      "updated_at": "2025-01-23T21:14:24.464992"
+    },
+    {
+      "path_id": "path6272",
+      "region_id": "東南亞",
+      "country": "緬甸",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T21:44:09.967755",
+      "updated_at": "2025-01-23T21:44:09.967757"
+    },
+    {
+      "path_id": "path6021",
+      "region_id": "東南亞",
+      "country": "菲律賓",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T21:45:16.374889",
+      "updated_at": "2025-01-23T21:45:16.374891"
+    },
+    {
+      "path_id": "path9518",
+      "region_id": "東北亞",
+      "country": "朝鮮",
+      "responsable": "",
+      "contact": "",
+      "coordinates": [],
+      "created_at": "2025-01-23T21:45:29.631936",
+      "updated_at": "2025-01-23T21:45:29.631937"
+    }
+  ]
+}

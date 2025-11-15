@@ -1,0 +1,61 @@
+// 生成模拟数据存储
+const generateMockDataStore = () => {
+  const store = new Map();
+  const now = new Date();
+  const totalMinutes = 60 * 24; // 24小时的分钟数
+  
+  for (let i = totalMinutes - 1; i >= 0; i--) {
+    const time = new Date(now - i * 60000);
+    const timeKey = `${time.getHours()}:${String(time.getMinutes()).padStart(2, '0')}`;
+    
+    store.set(timeKey, {
+      time: timeKey,
+      power: Math.floor(Math.random() * 1000),
+      timestamp: time.getTime()
+    });
+  }
+  
+  return store;
+};
+
+// 创建数据存储
+export const mockDataStore = generateMockDataStore();
+
+// 获取指定时间范围的数据
+export const getMockData = (minutes) => {
+  const now = new Date();
+  const data = [];
+  let acc = 0;
+  
+  for (let i = minutes - 1; i >= 0; i--) {
+    const time = new Date(now - i * 60000);
+    const timeKey = `${time.getHours()}:${String(time.getMinutes()).padStart(2, '0')}`;
+    const record = mockDataStore.get(timeKey) || {
+      time: timeKey,
+      power: Math.floor(Math.random() * 1000),
+      timestamp: time.getTime()
+    };
+    
+    acc += record.power;
+    data.push({
+      ...record,
+      accumulated: acc
+    });
+  }
+  
+  return data;
+};
+
+// 更新最新数据
+export const updateLatestMockData = () => {
+  const now = new Date();
+  const timeKey = `${now.getHours()}:${String(now.getMinutes()).padStart(2, '0')}`;
+  const newData = {
+    time: timeKey,
+    power: Math.floor(Math.random() * 1000),
+    timestamp: now.getTime()
+  };
+  
+  mockDataStore.set(timeKey, newData);
+  return newData;
+}; 

@@ -1,0 +1,51 @@
+.ios-switch {
+  padding: 0;
+}
+
+.ios-switch .MuiSwitch-switchBase {
+  transition-duration: 200ms;
+}
+
+.ios-switch .MuiSwitch-switchBase.Mui-checked {
+  color: #ffffff;
+}
+
+.ios-switch .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+  background-color: #34C759;  /* iOS 綠色 */
+  opacity: 1;
+  border: 0;
+}
+
+.ios-switch .MuiSwitch-switchBase.Mui-checked.Mui-disabled + .MuiSwitch-track {
+  opacity: 0.4;
+  background-color: #34C759;
+}
+
+.ios-switch .MuiSwitch-switchBase.Mui-focusVisible .MuiSwitch-thumb {
+  color: #33cf4d;
+  border: 6px solid #fff;
+}
+
+.ios-switch .MuiSwitch-switchBase.Mui-disabled .MuiSwitch-thumb {
+  background-color: #f5f5f5;
+}
+
+.ios-switch .MuiSwitch-switchBase.Mui-disabled + .MuiSwitch-track {
+  opacity: 0.4;
+  background-color: rgba(120, 120, 128, 0.32);
+}
+
+.ios-switch .MuiSwitch-thumb {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.ios-switch .MuiSwitch-track {
+  background-color: rgba(120, 120, 128, 0.32);  /* iOS 關閉時的顏色 */
+  opacity: 1;
+}
+
+.ios-switch.Mui-disabled {
+  opacity: 0.4;
+}

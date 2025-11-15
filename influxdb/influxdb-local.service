@@ -1,0 +1,12 @@
+[Unit]
+Description=InfluxDB Local Service
+After=network.target
+
+[Service]
+Type=forking
+User=%i
+ExecStart=/home/daniel/project/EnergyAi/influxdb/start.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target 

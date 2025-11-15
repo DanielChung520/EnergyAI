@@ -1,0 +1,21 @@
+{
+  "short_name": "BioEnergy",
+  "name": "Bio-Energy AI Management Platform",
+  "icons": [
+    {
+      "src": "/src/assets/BioEngy_logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/src/assets/BioEngy_logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+} 

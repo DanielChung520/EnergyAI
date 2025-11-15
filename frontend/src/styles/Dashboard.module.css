@@ -1,0 +1,97 @@
+.root {
+  display: flex;
+  min-height: 100vh;
+}
+
+.drawer {
+  /* width:10px; */
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.drawerPaper {
+  width: 240px;
+  background-color: #111827 !important;
+  color: white !important;
+  transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+  overflow-x: hidden;
+  border-right: none;
+  
+  /* 添加滾動條樣式 */
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #1e1e1e;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
+}
+
+.drawerPaperClose {
+  width: 60px !important;
+  overflow-x: hidden;
+
+  /* 當側邊欄收起時隱藏子選單 */
+  & .MuiCollapse-root {
+    display: none;
+  }
+  
+  /* 當側邊欄收起時隱藏展開/收起箭頭 */
+  & .MuiSvgIcon-root:last-child {
+    display: none;
+  }
+}
+
+.content {
+  flex-grow: 1;
+  height: 100vh;
+  overflow: auto;
+  background-color: #f3f4f6;
+  transition: margin-left 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+  margin-left: 240px;
+  padding: 24px;
+}
+
+.contentShift {
+  margin-left: 60px;
+}
+
+.toolbar {
+  padding-right: 24px;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.appBarSpacer {
+  min-height: 64px;
+}
+
+.paper {
+  padding: 10px;
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+}
+
+.fixedHeight {
+  height: 240px;
+}
+
+.userAvatar {
+  margin-right: 8px;
+}
+
+.menuButton {
+  margin-right: 10px;
+} 

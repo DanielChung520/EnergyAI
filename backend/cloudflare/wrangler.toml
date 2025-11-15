@@ -1,0 +1,4 @@
+[[d1_databases]]
+binding = "DB" # 綁定名稱
+database_name = "energy-ai" # 數據庫名稱
+database_id = "2c197b75-f3ef-43c5-8974-092ea6dd40ce" # 數據庫 ID

@@ -1,0 +1,289 @@
+:root {
+  /* Primary Colors */
+  --map-primary-blue: rgba(4, 129, 254, 0.461);
+  --map-primary-red: rgba(250, 4, 4, 0.587);
+  --map-primary-yellow: rgba(244, 224, 96, 0.954);
+  --map-primary-green: rgba(51, 255, 87, 0.65);
+  --map-primary-gray: rgba(128, 128, 128, 0.65);
+  --map-primary-white: rgba(255, 255, 255, 0.65);
+  --map-primary-black: rgba(0, 0, 0, 0.65);
+  --map-primary-lightgray: rgba(211, 211, 211, 0.65);
+  --map-primary-darkgray: rgba(128, 128, 128, 0.65);
+  --map-primary-lightblue: rgba(139, 190, 242, 0.6);
+  --map-primary-darkred: rgba(88, 1, 1, 0.581);
+  --map-primary-orange: rgba(240, 132, 9, 0.65);
+  --map-primary-purple: rgba(153, 51, 255, 0.65);
+
+  /* Secondary Colors */
+  --map-secondary-lightblue: rgba(139, 190, 242, 0.6);
+  --map-secondary-darkred: rgba(228, 34, 34, 0.75);
+  --map-secondary-orange: rgba(245, 51, 51, 0.65);
+  --map-secondary-purple: rgba(153, 51, 255, 0.65);
+  --map-secondary-lightgray: rgba(211, 211, 211, 0.65);
+  --map-secondary-darkgray: rgba(128, 128, 128, 0.65);
+}
+
+.comp-map-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #0c445e;
+}
+
+/* 背景圖片樣式 */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../../assets/sea.jpg); /* 確保路徑正確 */
+
+  background-size: cover;
+  background-position: center;
+  z-index: 0; /* 確保背景在最底層 */
+   /* 亞克力效果 */
+   -webkit-backdrop-filter: blur(10px); /* Safari 支持 */
+   backdrop-filter: blur(10px); /* 背景模糊 */
+   background-color: rgba(58, 55, 55); /* 半透明白色 */
+   border: 1px solid rgba(255, 255, 255, 0.5); /* 半透明邊框 */
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* 陰影效果 */
+}
+
+/* 地图容器 */
+.map-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: rgba(182, 213, 244, 0.68); /* 设置海洋背景颜色和透明度 */
+}
+
+/* 确保 ComposableMap 占满容器 */
+.rsm-svg {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
+  max-height: none !important;
+  
+  /* 添加阴影效果 */
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.5)); /* 你可以根据需要调整阴影的参数 */
+  
+  /* 确保 SVG 不继承父元素的透明度 */
+  opacity: 1; /* 设置为不透明 */
+}
+
+.rsm-marker {
+  cursor: pointer;
+}
+
+/* 工具提示样式 */
+.tooltip {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8); /* 更深的黑色背景 */
+  color: #ffffff; /* 白色文字 */
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* 略微可见的白色边框 */
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  font-size: 12px;
+  pointer-events: none;
+  z-index: 1000;
+  transform: translate(10px, 10px); /* 统一的偏移量 */
+  transition: all 0.1s ease-out; /* 平滑移动效果 */
+  
+  /* 可选的样式增强 */
+  background-color: rgba(105, 101, 101, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  white-space: nowrap; /* 防止文本换行 */
+}
+
+/* 可选：添加一个小箭头 */
+.tooltip::before {
+  content: '';
+  position: absolute;
+  left: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent white transparent transparent;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .comp-map-container {
+    height: 300px;
+  }
+}
+
+/* 调整地图大小 */
+
+.zoom-controls {
+  position: absolute; /* 绝对定位 */
+  top: 20px; /* 根据需要调整位置 */
+  right: 20px; /* 根据需要调整位置 */
+  display: flex;
+  flex-direction: column; /* 垂直排列 */
+}
+
+.zoom-controls button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 5px 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.mui-icon {
+  width: 24px;
+  height: 24px;
+  color: #666;
+}
+
+.zoom-controls button:hover .mui-icon {
+  color: #1976d2;
+}
+
+/* 确保图标居中显示 */
+.zoom-controls button svg {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-zoom-button {
+  background: white !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  width: 32px !important;
+  height: 32px !important;
+  padding: 4px !important;
+  margin: 4px !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.custom-zoom-button svg {
+  width: 24px !important;
+  height: 24px !important;
+  color: #666 !important;
+}
+
+.custom-zoom-button:hover svg {
+  color: #1976d2 !important;
+}
+
+/* 地理区域的基础样式 */
+.geography {
+  stroke: #072a4c6c;
+  stroke-width: 0.1;
+  outline: none;
+  transition: all 200ms ease-in-out;
+}
+
+/* 悬停状态 */
+.geography:hover {
+  fill: rgba(238, 197, 49, 0.569) !important;
+  stroke: rgba(131, 94, 7, 0.891);
+  stroke-width: 0.3;
+  outline: none;
+  cursor: pointer;
+}
+
+/* 按压状态 */
+.geography:active {
+  fill: #E42 !important;
+  stroke: #E42;
+  stroke-width: 0.3;
+  outline: none;
+}
+
+.zoom-slider {
+  position: absolute;
+  top: 20px; /* 根据需要调整位置 */
+  left: 20px; /* 根据需要调整位置 */
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* 确保在其他元素之上 */
+}
+
+.zoom-slider label {
+  margin-right: 10px;
+  color:rgb(8, 45, 179);
+}
+
+.geography-default {
+  fill: #a5c7e54a; /* 默认颜色 */
+  stroke: #D6D6DA;
+  stroke-width: 0.2;
+  outline: none;
+  transition: all 200ms ease-in-out; /* 添加过渡效果 */
+}
+
+.reset-button {
+  position: absolute;
+  color:rgb(6, 60, 108);
+  top: 10px; /* 根据需要调整位置 */
+  right : 20px; /* 根据需要调整位置 */
+  height: 40px;
+  width: 40px;
+  z-index: 1000;
+}
+
+.reset-button button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset-button button:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.sidebar {
+  width: 250px; /* 根据需要调整宽度 */
+  background-color: rgba(202, 234, 245, 0.9);
+  color: rgba(4, 20, 67, 0.848);
+  border-right: 1px solid #ccc; /* 边框样式 */
+  overflow: auto; /* 允许滚动 */
+}
+
+.region-select {
+  margin: 16px; /* 根据需要调整间距 */
+  height: 40px;
+  width: 85%;
+}
+
+.country-item {
+  cursor: pointer; /* 鼠标悬停时显示为手型 */
+  height: 55px;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+}
+
+.country-item.selected {
+  background-color: rgba(0, 0, 0, 0.08);
+}

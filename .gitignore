@@ -1,0 +1,25 @@
+# Node
+node_modules/
+dist/
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Cloudflare
+.wrangler/ 
+
+# 環境變數文件
+.env
+.env.*
+
+# 其他忽略項...
+node_modules/
+__pycache__/
+*.pyc 

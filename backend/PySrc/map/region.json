@@ -1,0 +1,202 @@
+{
+  "regions": [
+    {
+      "id": "1",
+      "name": "北部非洲",
+      "name_en": "NORTHERN_AFRICA",
+      "division": "",
+      "bu": "",
+      "sort_no": 1,
+      "continents": "AF"
+    },
+    {
+      "id": "2",
+      "name": "東部非洲",
+      "name_en": "EASTERN_AFRICA",
+      "division": "",
+      "bu": "",
+      "sort_no": 2,
+      "continents": "AF"
+    },
+    {
+      "id": "3",
+      "name": "中部非洲",
+      "name_en": "MIDDLE_AFRICA",
+      "division": "",
+      "bu": "",
+      "sort_no": 3,
+      "continents": "AF"
+    },
+    {
+      "id": "4",
+      "name": "南部非洲",
+      "name_en": "SOUTHERN_AFRICA",
+      "division": "",
+      "bu": "",
+      "sort_no": 4,
+      "continents": "AF"
+    },
+    {
+      "id": "5",
+      "name": "西部非洲",
+      "name_en": "WESTERN_AFRICA",
+      "division": "",
+      "bu": "",
+      "sort_no": 5,
+      "continents": "AF"
+    },
+    {
+      "id": "6",
+      "name": "北美地區",
+      "name_en": "NORTHERN_AMERICA",
+      "division": "",
+      "bu": "",
+      "sort_no": 6,
+      "continents": "AM"
+    },
+    {
+      "id": "7",
+      "name": "中美洲",
+      "name_en": "CENTRAL_AMERICA",
+      "division": "",
+      "bu": "",
+      "sort_no": 7,
+      "continents": "AM"
+    },
+    {
+      "id": "8",
+      "name": "加勒比地區",
+      "name_en": "CARIBBEAN",
+      "division": "",
+      "bu": "",
+      "sort_no": 8,
+      "continents": "AM"
+    },
+    {
+      "id": "9",
+      "name": "南美洲",
+      "name_en": "SOUTH_AMERICA",
+      "division": "",
+      "bu": "",
+      "sort_no": 9,
+      "continents": "AM"
+    },
+    {
+      "id": "10",
+      "name": "中亞",
+      "name_en": "CENTRAL_ASIA",
+      "division": "",
+      "bu": "",
+      "sort_no": 10,
+      "continents": "AS"
+    },
+    {
+      "id": "11",
+      "name": "東亞",
+      "name_en": "EASTERN_ASIA",
+      "division": "",
+      "bu": "",
+      "sort_no": 11,
+      "continents": "AS"
+    },
+    {
+      "id": "12",
+      "name": "南亞",
+      "name_en": "SOUTHERN_ASIA",
+      "division": "",
+      "bu": "",
+      "sort_no": 12,
+      "continents": "AS"
+    },
+    {
+      "id": "13",
+      "name": "東南亞",
+      "name_en": "SOUTH_EASTERN_ASIA",
+      "division": "",
+      "bu": "",
+      "sort_no": 13,
+      "continents": "AS"
+    },
+    {
+      "id": "14",
+      "name": "西亞",
+      "name_en": "WESTERN_ASIA",
+      "division": "",
+      "bu": "",
+      "sort_no": 14,
+      "continents": "AS"
+    },
+    {
+      "id": "15",
+      "name": "北歐",
+      "name_en": "NORTHERN_EUROPE",
+      "division": "",
+      "bu": "",
+      "sort_no": 15,
+      "continents": "EU"
+    },
+    {
+      "id": "16",
+      "name": "南歐",
+      "name_en": "SOUTHERN_EUROPE",
+      "division": "",
+      "bu": "",
+      "sort_no": 16,
+      "continents": "EU"
+    },
+    {
+      "id": "17",
+      "name": "西歐",
+      "name_en": "WESTERN_EUROPE",
+      "division": "",
+      "bu": "",
+      "sort_no": 17,
+      "continents": "EU"
+    },
+    {
+      "id": "18",
+      "name": "東歐",
+      "name_en": "EASTERN_EUROPE",
+      "division": "",
+      "bu": "",
+      "sort_no": 18,
+      "continents": "EU"
+    },
+    {
+      "id": "19",
+      "name": "澳洲和紐西蘭",
+      "name_en": "AUSTRALIA_NEW_ZEALAND",
+      "division": "",
+      "bu": "",
+      "sort_no": 19,
+      "continents": "OC"
+    },
+    {
+      "id": "20",
+      "name": "美拉尼西亞",
+      "name_en": "MELANESIA",
+      "division": "",
+      "bu": "",
+      "sort_no": 20,
+      "continents": "OC"
+    },
+    {
+      "id": "21",
+      "name": "密克羅尼西亞",
+      "name_en": "MICRONESIA",
+      "division": "",
+      "bu": "",
+      "sort_no": 21,
+      "continents": "OC"
+    },
+    {
+      "id": "22",
+      "name": "波利尼西亞",
+      "name_en": "POLYNESIA",
+      "division": "",
+      "bu": "",
+      "sort_no": 22,
+      "continents": "OC"
+    }
+  ]
+}

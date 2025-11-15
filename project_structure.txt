@@ -1,0 +1,136 @@
+.
+├── README.md
+├── backend
+│   ├── PySrc
+│   │   ├── __pycache__
+│   │   │   └── config.cpython-312.pyc
+│   │   ├── app.py
+│   │   ├── config.py
+│   │   ├── data
+│   │   │   ├── equipments.csv
+│   │   │   ├── site_equipments.csv
+│   │   │   ├── site_performance.csv
+│   │   │   ├── sites.csv
+│   │   │   ├── solar_equipment_details.csv
+│   │   │   ├── solar_sites.csv
+│   │   │   ├── wind_equipment_details.csv
+│   │   │   └── wind_sites.csv
+│   │   ├── models
+│   │   │   ├── equipment.py
+│   │   │   ├── site.py
+│   │   │   ├── site_performance.py
+│   │   │   └── site_types
+│   │   │       ├── solar.py
+│   │   │       └── wind.py
+│   │   ├── pythonProject
+│   │   ├── routes
+│   │   │   ├── __pycache__
+│   │   │   │   ├── equipment_routes.cpython-312.pyc
+│   │   │   │   └── site_routes.cpython-312.pyc
+│   │   │   ├── equipment_routes.py
+│   │   │   └── site_routes.py
+│   │   ├── services
+│   │   │   ├── __pycache__
+│   │   │   │   ├── equipment_service.cpython-312.pyc
+│   │   │   │   └── site_service.cpython-312.pyc
+│   │   │   ├── equipment_service.py
+│   │   │   └── site_service.py
+│   │   └── utils
+│   │       ├── __pycache__
+│   │       │   └── csv_handler.cpython-312.pyc
+│   │       └── csv_handler.py
+│   └── app.py
+├── frontend
+│   ├── README.md
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   │   └── vite.svg
+│   ├── src
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── assets
+│   │   │   └── react.svg
+│   │   ├── components
+│   │   │   ├── ChangePasswordDialog.jsx
+│   │   │   ├── LanguageSelector.jsx
+│   │   │   ├── PageContainer.jsx
+│   │   │   ├── ProfileDialog.jsx
+│   │   │   ├── ProtectedRoute.jsx
+│   │   │   ├── equipment
+│   │   │   │   ├── EquipmentSolarDetail.jsx
+│   │   │   │   └── EquipmentWindDetail.jsx
+│   │   │   └── site
+│   │   │       ├── SitePerformanceChart.jsx
+│   │   │       ├── SolarDetails.jsx
+│   │   │       └── WindSiteDetails.jsx
+│   │   ├── constants
+│   │   │   ├── equipmentTypes.js
+│   │   │   └── siteDirections.js
+│   │   ├── contexts
+│   │   │   ├── AuthContext.jsx
+│   │   │   └── SystemSettingsContext.jsx
+│   │   ├── data
+│   │   │   ├── asia.js
+│   │   │   ├── asia.json
+│   │   │   ├── equipments.js
+│   │   │   ├── powerPlantData.js
+│   │   │   ├── siteEquipment.json
+│   │   │   ├── world.js
+│   │   │   ├── world.json
+│   │   │   └── www.svg
+│   │   ├── i18n
+│   │   │   ├── config.js
+│   │   │   └── locales
+│   │   │       ├── en-US.js
+│   │   │       ├── en-US.json
+│   │   │       ├── en-US.json.back
+│   │   │       ├── zh-TW.js
+│   │   │       ├── zh-TW.json
+│   │   │       ├── zh.js
+│   │   │       └── zh.json
+│   │   ├── index.css
+│   │   ├── main.jsx
+│   │   ├── pages
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── ForgotPassword.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── equipment
+│   │   │   │   ├── EquipmentBasicSettings.jsx
+│   │   │   │   └── EquipmentManagement.jsx
+│   │   │   ├── site
+│   │   │   │   ├── SiteBasicSettings.jsx
+│   │   │   │   ├── SiteEquipmentList.jsx
+│   │   │   │   └── SiteManagement.jsx
+│   │   │   └── system
+│   │   │       └── BasicSettings.jsx
+│   │   ├── styles
+│   │   │   ├── Dashboard.module.css
+│   │   │   ├── Login.module.css
+│   │   │   ├── Register.module.css
+│   │   │   └── global.css
+│   │   └── utils
+│   │       └── fileUtils.js
+│   ├── tailwind.config.js
+│   └── vite.config.js
+├── postcss.config.js
+├── project_structure.txt
+├── tailwind.config.js
+└── workers
+    ├── energyai
+    │   ├── package-lock.json
+    │   ├── package.json
+    │   ├── src
+    │   │   └── index.js
+    │   ├── test
+    │   │   └── index.spec.js
+    │   ├── vitest.config.js
+    │   └── wrangler.toml
+    ├── src
+    │   └── index.js
+    └── wrangler.toml
+
+37 directories, 97 files

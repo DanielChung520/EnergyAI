@@ -1,0 +1,67 @@
+version: '3'
+services:
+  # 前端服務
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"
+    environment:
+      - VITE_SITE_API_URL=http://backend:5000/api
+      - VITE_EQUIPMENT_API_URL=http://backend:5000/api
+    depends_on:
+      - backend
+
+  # 後端服務
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=${FLASK_ENV}
+      - INFLUXDB_URL=http://influxdb:8086
+      - INFLUXDB_TOKEN=${INFLUXDB_ADMIN_TOKEN}
+      - INFLUXDB_ORG=${INFLUXDB_ORG}
+    volumes:
+      - ./backend/PySrc/data:/app/data
+    depends_on:
+      - influxdb
+
+  # 數據模擬器服務
+  simulator:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8083"
+    environment:
+      - SIMULATOR_PORT=8083
+    volumes:
+      - ./backend/PySrc/scripts:/app/scripts
+    command: python /app/scripts/data_simulator.py
+    depends_on:
+      - backend
+      - influxdb
+
+  # InfluxDB 服務
+  influxdb:
+    image: influxdb:2.7
+    ports:
+      - "8086:8086"
+    volumes:
+      - influxdb-data:/var/lib/influxdb2
+      - influxdb-config:/etc/influxdb2
+    environment:
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=${INFLUXDB_USERNAME}
+      - DOCKER_INFLUXDB_INIT_PASSWORD=${INFLUXDB_PASSWORD}
+      - DOCKER_INFLUXDB_INIT_ORG=${INFLUXDB_ORG}
+      - DOCKER_INFLUXDB_INIT_BUCKET=${INFLUXDB_BUCKET}
+      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=${INFLUXDB_ADMIN_TOKEN}
+
+volumes:
+  influxdb-data:
+  influxdb-config: 

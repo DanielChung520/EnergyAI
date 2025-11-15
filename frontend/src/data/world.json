@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Taiwan"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[121.5, 25.0], [121.5, 21.9], [120.0, 21.9], [120.0, 25.0], [121.5, 25.0]]]
+      }
+    }
+  ]
+}
