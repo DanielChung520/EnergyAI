@@ -22,4 +22,9 @@ __pycache__/
 # 其他忽略項...
 node_modules/
 __pycache__/
-*.pyc 
+*.pyc
+
+# 備份檔案
+daniel@*
+*.tar.gz
+*.gz
